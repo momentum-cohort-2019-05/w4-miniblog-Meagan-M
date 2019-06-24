@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>DIY Blog Home</h1>
+  <p>Welcome to DIY Blog, a website developed by <em>Dinah Mite</em>!</p>
+  <h2>Check Out Our Content</h2>
+  <!-- <p>DIY Blog has the following:</p> -->
+  <ul>
+    <li><strong>Blog Posts:</strong> {{ num_blog_post }}</li>
+    <li><strong>Blog Authors:</strong> {{ num_blog_author }}</li>
+    <li><strong>Comments:</strong> {{ num_comment }}</li>
+  </ul>
+{% endblock %}
+
+
+
